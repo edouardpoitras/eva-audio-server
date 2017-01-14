@@ -1,0 +1,3 @@
+name = Audio Server
+description = Allows the handling of real-time streamed audio data from clients.
+version = 0.1.0
