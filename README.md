@@ -7,7 +7,7 @@ An Eva plugin that allows the handling of real-time streamed audio data from cli
 
 Can be easily installed through the Web UI by using [Web UI Plugins](https://github.com/edouardpoitras/eva-web-ui-plugins).
 
-Alternatively, add `audio_server` to your `eva.conf` file under the `enabled_plugins` option and restart Eva.
+Alternatively, add `audio_server` to your `eva.conf` file in the `enabled_plugins` option list and restart Eva.
 
 ## Usage
 
@@ -29,9 +29,9 @@ Otherwise `audio_server` will not know when to terminate a query/question and se
 
 ## Configuration
 
-Default configurations can be chanaged by adding a `audio_server.conf` file in your plugin configuration path (can be configured in `eva.conf`, but usually `~/eva/configs`).
+Default configurations can be changed by adding a `audio_server.conf` file in your plugin configuration path (can be configured in `eva.conf`, but usually `~/eva/configs`).
 
-To get an idea of what configuration options are available, you can take a look at the `audio_server.conf.spec` file in this repository, or use the [Web UI](https://github.com/edouardpoitras/eva-web-ui) plugin and view them at `/plugins/configuration/audio_server`.
+To get an idea of what configuration options are available, you can take a look at the `audio_server.conf.spec` file in this repository, or use the [Web UI Plugins](https://github.com/edouardpoitras/eva-web-ui-plugins) plugin and view them at `/plugins/configuration/audio_server`.
 
 Here is a breakdown of the available options:
 
